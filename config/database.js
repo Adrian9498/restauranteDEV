@@ -1,12 +1,14 @@
 import {Sequelize} from 'sequelize';
 
 const conexion = new Sequelize(
-    'restaurante', //Nombre de la base
+    'railway', //Nombre de la base
     'postgres', //Usuario
-    '1234', // Password
+    'JlgjM9rX0yVPPAZVNMwU', // Password
+
     {
-        host: 'localhost',
-        dialect: 'postgres'
+        host: 'containers-us-west-78.railway.app',
+        dialect: 'postgres',
+        port: 7071
     }
 );
 
